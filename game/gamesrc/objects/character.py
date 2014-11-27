@@ -40,6 +40,6 @@ class Character(DefaultCharacter):
 
     """
     def at_object_creation(self):
-        "This is called when object is first creted. only."
+        """This is called when object is first created. Only. """
         self.db.power = 1
         self.db.combat_score = 1
