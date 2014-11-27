@@ -44,6 +44,8 @@ class LeaveShip(Command):
     Leave a Ship.
     """
 
+    # TODO: To be available outside of the ship, this command is gonna have to be global.
+
     # Command information.
     key = "unboard"
     aliases = ["disembark"]
