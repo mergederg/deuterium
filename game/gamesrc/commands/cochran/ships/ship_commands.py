@@ -59,8 +59,8 @@ class LeaveShip(Command):
         # TODO: Parse the command.
 
         # Two arguments -- what ship, and the entry password.
-        targetShip = self.args[0];
-        userPassword = self.args[1];
+        targetShip = self.args[0]
+        userPassword = self.args[1]
 
         # Find out what ship is the user trying to board.
         # Do they have the password right?
