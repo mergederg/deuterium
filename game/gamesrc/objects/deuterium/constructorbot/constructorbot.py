@@ -8,8 +8,8 @@ by administrators.
 from ev import Object, create_object
 from ev import Command, CmdSet
 
-from game.gamesrc.objects.cochran.ships.generic_ships import BattleShip
-from game.gamesrc.objects.cochran.ships.ship import Ship
+from game.gamesrc.objects.deuterium.ships.generic_ships import BattleShip
+from game.gamesrc.objects.deuterium.ships.ship import Ship
 
 
 class BotBeepCMD(Command):

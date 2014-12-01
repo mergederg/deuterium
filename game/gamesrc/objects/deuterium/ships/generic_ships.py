@@ -22,7 +22,7 @@ class Freighter(Ship):
 
 class DerpFreighter(Freighter):
     """
-    Specific variant of the freighter NX class.
+    A type of freighter.
     """
     def at_object_creation(self):
         super(Freighter, self).at_object_creation()
