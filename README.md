@@ -2,7 +2,7 @@
 
 _Deuterium is in pre-alpha state and not yet fully functional.  At the moment, its repo is an installation with the project installed within it.  Eventually just the project source will be here once it is more properly refactored._
 
-Deuterium is a pluggable space system for Evennia, designed as a replacement for the softcode and mixed hardocde/softcode systems of old.
+Deuterium is a pluggable space system for Evennia, designed as a replacement for the softcode and mixed hardocde/softcode systems of old (think HSpace and DarrienSpace).  It provides ships, planets, spaceports and the means to create and link them easily.
 
 ## Getting Started
 Getting started with Dueterium is easy (especially compared with getting started with hSpace, its inspiration).  All of its components are independent of Evennia's core, so you can update your game around it without worrying about any compatibility issues.
