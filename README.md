@@ -4,13 +4,5 @@ _Deuterium is in pre-alpha state and not yet fully functional.  At the moment, i
 
 Deuterium is a pluggable space system for Evennia, designed as a replacement for the softcode and mixed hardocde/softcode systems of old (think HSpace and DarrienSpace).  It provides ships, planets, spaceports and the means to create and link them easily.
 
-## Getting Started
-Getting started with Dueterium is easy (especially compared with getting started with hSpace, its inspiration).  All of its components are independent of Evennia's core, so you can update your game around it without worrying about any compatibility issues.
-
-### Import Deuterium
-Copy each folder in contrib/deuterium into the corresponding folder within game/gamesrc within your Evennia installation.  This makes Deuterium classes available to be loaded.
-
-### Prepare Database
-Next, run a `manage.py`, followed by `manage.py migrate`.  This should load Cochran's typeclasses and command sets in.  You may additionally have to `evennia.py -i stop` and `evennia.py -i start`.
-
-Now you're ready!
+## Documentation
+For full documentation, see our GitHub project wiki.
